@@ -11,9 +11,6 @@ namespace GuestBook
 {
     public partial class GuestBook : System.Web.UI.Page
     {
-        /*RequiredFieldValidator RequiredFieldValidator_1 = new RequiredFieldValidator();
-        RequiredFieldValidator RequiredFieldValidator_2 = new RequiredFieldValidator();
-        RequiredFieldValidator RequiredFieldValidator_3 = new RequiredFieldValidator();*/
         DataTable Table = new DataTable();
         StreamReader Reader;
         StreamWriter Writer;
@@ -21,18 +18,6 @@ namespace GuestBook
         {
             AddMessageButton.Click += new EventHandler(AddMessageButton_Click);
             TimerTimer.Tick += new EventHandler<EventArgs>(TimerTimer_Tick);
-            /*
-            Контроль заполнения всех полей.
-            */
-            /*RequiredFieldValidator_1.ControlToValidate = "YourNameTextBox";
-            RequiredFieldValidator_1.EnableClientScript = false;
-            RequiredFieldValidator_1.ErrorMessage = "Необходимо заполнить данное поле.";
-            RequiredFieldValidator_2.ControlToValidate = "YourEmailTextBox";
-            RequiredFieldValidator_2.EnableClientScript = false;
-            RequiredFieldValidator_2.ErrorMessage = "Необходимо заполнить данное поле.";
-            RequiredFieldValidator_3.ControlToValidate = "YourMessageTextBox";
-            RequiredFieldValidator_3.EnableClientScript = false;
-            RequiredFieldValidator_3.ErrorMessage = "Необходимо заполнить данное поле.";*/
             Table.Columns.Add("Дата");
             Table.Columns.Add("Время");
             Table.Columns.Add("Имя");
