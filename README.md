@@ -1,4 +1,4 @@
-Тестовое изменение в строке. StepUp.
+Test row. StepUp.
 ======
 
 StepUp
