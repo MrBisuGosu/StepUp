@@ -1,0 +1,5 @@
+C:\Users\Nikolay\Documents\Visual Studio 2010\Projects\GuestBook\GuestBook\bin\GuestBook.dll
+C:\Users\Nikolay\Documents\Visual Studio 2010\Projects\GuestBook\GuestBook\bin\GuestBook.pdb
+C:\Users\Nikolay\Documents\Visual Studio 2010\Projects\GuestBook\GuestBook\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Nikolay\Documents\Visual Studio 2010\Projects\GuestBook\GuestBook\obj\Release\GuestBook.dll
+C:\Users\Nikolay\Documents\Visual Studio 2010\Projects\GuestBook\GuestBook\obj\Release\GuestBook.pdb
